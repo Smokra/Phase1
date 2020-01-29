@@ -17,10 +17,12 @@ h3 {
 
 /* line 20, ../src/css/style.scss */
 .logo {
-  height: 42px;
-  width: 42px;
-  background-image: url(../img/logo-sm.png);
+  display: block;
+  justify-content: center;
+  height: 45px;
+  width: 45px;
   border-radius: 50%;
+  background-color: #51b7fb;
 }
 
 /*# sourceMappingURL=style.css.map */

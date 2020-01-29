@@ -18,10 +18,12 @@ h3 {
 }
 
 .logo {
-  height: 42px;
-  width: 42px;
-  background-image: url(../img/logo-sm.png);
+  display: block;
+  justify-content: center;
+  height: 45px;
+  width: 45px;
   border-radius: 50%;
+  background-color: $blue;
 }
 
 

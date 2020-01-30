@@ -3,9 +3,7 @@ const path = require('path')
 
 module.exports = {
   mode: 'production',
-  entry: {
-    script: helpers.parse('helpers.source/config.js.src/script.js')
-  },
+  entry: {},
   output: {
     path: path.resolve(`${__dirname}/${helpers.parse('helpers.dist/config.js.dist/')}`),
     filename: '[name].js'

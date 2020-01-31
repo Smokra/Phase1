@@ -6,7 +6,13 @@
     "run": true
   },
   "html": {
-    "run": false
+    "run": true,
+    "pug": false,
+    "src": "",
+    "dist": "",
+    "minify": true,
+    "inline": false,
+    "lint": true
   },
   "css": {
     "run": true,
@@ -15,16 +21,16 @@
     "dist": "css",
     "minify": true,
     "autoprefix": true,
-    "sourcemaps": false,
-    "lint": false
+    "sourcemaps": true,
+    "lint": true
   },
   "js": {
     "run": true,
     "src": "js",
     "dist": "js",
     "uglify": true,
-    "sourcemaps": false,
-    "lint": false
+    "sourcemaps": true,
+    "lint": true
   },
   "gfx": {
     "run": true,
@@ -38,9 +44,6 @@
     "run": false
   },
   "critical": {
-    "run": true
-  },
-  "gzip": {
     "run": false
   },
   "kss": {
@@ -53,6 +56,9 @@
     "run": false
   },
   "bump": {
+    "run": false
+  },
+  "gzip": {
     "run": false
   },
   "yarn": true

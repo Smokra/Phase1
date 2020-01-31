@@ -58,6 +58,11 @@ h3 {
     height: 750px;
     margin-top: 0px;
   }
+
+  /* line 59, ../src/css/style.scss */
+  img {
+    margin-top: -15px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,10 +1,10 @@
-body {
-  overflow: hidden
-}
-
 $black: #252528;
 $blue: #51b7fb;
 $white: #f2f2f3;
+
+.main {
+  background-color: $white;
+ }
 
 h3 {
   font-size: 24px;
@@ -49,6 +49,39 @@ h3 {
   height: 215px;
   border-radius: 50%;
 }
+
+.section3 {
+  height: 750px;
+
+  h3 {
+    color: $black;
+    text-decoration: underline;
+  }
+
+  p {
+    color: $black;
+  }
+}
+
+.blog-post {
+  width: 340px;
+  height: 180px;
+  background-color: $blue;
+}
+
+.section4 {
+  height: 750px;
+  background-color: $blue;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);}
+
+  h3 {
+    color: $white;
+    text-decoration: underline;
+  }
+
+  p {
+    color: $white;
+  }
 
 @media only screen and (max-width: 991px) {
   .section2 {

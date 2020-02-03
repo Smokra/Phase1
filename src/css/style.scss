@@ -2,10 +2,6 @@ $black: #252528;
 $blue: #51b7fb;
 $white: #f2f2f3;
 
-.main {
-  background-color: $white;
- }
-
 h3 {
   font-size: 24px;
   font-weight: 900;
@@ -32,7 +28,8 @@ h3 {
 .section2 {
   height: 420px;
   background-color: $blue;
-  clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 100px), 0 100%);
+  margin-bottom: -100px;
 
   h3 {
     color: $white;
@@ -45,7 +42,7 @@ h3 {
 }
 
 .card {
-  width: 400px;
+  max-width: 400px;
 }
 
 .profile {
@@ -56,6 +53,10 @@ h3 {
 
 .section3 {
   height: auto;
+  background-color: $white;
+  padding-top: 100px;
+  margin-bottom: -50px;
+  padding-bottom: 50px;
 
   h3 {
     color: $black;
@@ -76,7 +77,7 @@ h3 {
 .section4 {
   height: 750px;
   background-color: $blue;
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);}
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 100px));
 
   h3 {
     color: $white;
@@ -86,6 +87,7 @@ h3 {
   p {
     color: $white;
   }
+}
 
 @media only screen and (max-width: 991px) {
   .section2 {

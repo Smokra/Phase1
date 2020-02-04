@@ -142,6 +142,11 @@ h3 {
   margin: 0 auto;
 }
 
+.copy {
+  margin-left: auto;
+  color: $white;
+}
+
 @media only screen and (max-width: 991px) {
   .section2 {
     height: 750px;

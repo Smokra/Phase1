@@ -2,6 +2,37 @@ $black: #252528;
 $blue: #51b7fb;
 $white: #f2f2f3;
 
+.btn-hover {
+  width: 160px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin: 10px;
+  height: 35px;
+  text-align:center;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 50px;
+  transition: all .4s ease-in-out;
+}
+
+.btn-hover:hover {
+  background-position: 100% 0;
+  transition: all .4s ease-in-out;
+  color: #fff;
+}
+
+.btn-hover:focus {
+  outline: none;
+}
+
+.btn-hover.color {
+  background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
+  box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+}
+
+
 h3 {
   font-size: 24px;
   font-weight: 900;

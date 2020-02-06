@@ -2,6 +2,9 @@ $black: #252528;
 $blue: #51b7fb;
 $white: #f2f2f3;
 
+html {
+  scroll-behavior: smooth;
+}
 .btn-hover {
   width: 160px;
   font-size: 15px;
@@ -56,7 +59,7 @@ h3 {
   border-radius: 50%;
 }
 
-.section2 {
+#section2 {
   height: 420px;
   background-color: $blue;
   clip-path: polygon(0 0, 100% 0, 100% calc(100% - 100px), 0 100%);
@@ -82,7 +85,7 @@ h3 {
   border-radius: 50%;
 }
 
-.section3 {
+#section3 {
   background-color: $white;
   padding-top: 100px;
   margin-bottom: -50px;
@@ -104,7 +107,7 @@ h3 {
   background-color: $blue;
 }
 
-.section4 {
+#section4 {
   background-color: $blue;
   padding-bottom: 110px;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 100px));
@@ -144,7 +147,7 @@ h3 {
   }
 }
 
-.section5 {
+#section5 {
   background-color: $white;
   padding-top: 100px;
   margin-top: -100px;

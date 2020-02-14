@@ -8,6 +8,7 @@
   <title>SMODEV-Ivan Smokrović portfolio</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="/css/style.min.css">
+  <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
 </head>
 
 <body>
@@ -25,19 +26,19 @@
           <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item">
-                <a class="nav-link" href="#section2">About</a>
+                <a class="nav-link" data-scroll href="#section2">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#section3">Blog</a>
+                <a class="nav-link" data-scroll href="#section3">Blog</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#section4">Projects</a>
+                <a class="nav-link" data-scroll href="#section4">Projects</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#section5">Testimonials</a>
+                <a class="nav-link" data-scroll href="#section5">Testimonials</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" data-scroll href="#">Contact</a>
               </li>
             </ul>
           </div>
@@ -231,6 +232,11 @@
           </div>
         </div>
       </div>
+      <div class="row mx-auto">
+        <div class="col">
+          <a class="twitter-timeline" href="https://twitter.com/IvanSmokrovic" data-tweet-limit="10" data-width="350px" data-align="row"></a>
+        </div>
+      </div>
     </div>
     <div class="row section6">
       <div class="col-12">
@@ -266,6 +272,14 @@
       </div>
     </div>
   </div>
+  <script>
+    var scroll = new SmoothScroll('a[href*="#"]', {
+	speed: 500,
+	speedAsDuration: true
+});
+  </script>
+  <script async src="http://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
   <!--<script src="/js/script.js"></script>-->
 </body>
 

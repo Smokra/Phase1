@@ -40,8 +40,12 @@
     "webpack-stream": "^5.2.1"
   },
   "dependencies": {
+<<<<<<< HEAD
     "seamless-scroll-polyfill": "^1.0.9",
     "smoothscroll-anchor-polyfill": "^1.3.1",
+=======
+    "smooth-scroll": "^16.1.2",
+>>>>>>> 449c049aec293f80db8f40c1645adff6110a5131
     "smoothscroll-polyfill": "^0.4.4"
   }
 }

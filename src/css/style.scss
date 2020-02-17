@@ -2,10 +2,14 @@ $black: #252528;
 $blue: #51b7fb;
 $white: #f2f2f3;
 
-html {
+/*html {
   scroll-behavior: smooth;
+<<<<<<< HEAD
 }
 
+=======
+}*/
+>>>>>>> 449c049aec293f80db8f40c1645adff6110a5131
 .btn-hover {
   width: 160px;
   font-size: 15px;
@@ -191,4 +195,13 @@ h3 {
   img {
     margin-top: -15px;
   }
+}
+
+.twitter-post {
+  display: block;
+  width: 150px;
+  height: 150px;
+  border: 1px solid $blue;
+  border-radius: 50%;
+  margin: 0 auto;
 }

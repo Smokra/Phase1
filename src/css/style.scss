@@ -5,6 +5,7 @@ $white: #f2f2f3;
 html {
   scroll-behavior: smooth;
 }
+
 .btn-hover {
   width: 160px;
   font-size: 15px;
@@ -13,7 +14,7 @@ html {
   cursor: pointer;
   margin: 10px;
   height: 35px;
-  text-align:center;
+  text-align: center;
   border: none;
   background-size: 300% 100%;
   border-radius: 50px;
@@ -31,7 +32,7 @@ html {
 }
 
 .btn-hover.color {
-  background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
+  background-image: linear-gradient(to right, $blue, #5992f5, $blue, $black, $blue);
   box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
 }
 
